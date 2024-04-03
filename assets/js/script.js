@@ -91,6 +91,9 @@ async function listPosts() {
       .join("");
   }
   
+  //readPosts();
+  //A seguir temos a função usada para mostrar os novos posts na tela:
+
   async function app() {
     const [postList, titleField, bodyField, addButton] = [
       ".posts",
