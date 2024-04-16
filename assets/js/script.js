@@ -42,7 +42,7 @@ async function addNewPost(title, body) {
     document.querySelector('#bodyField').value = '';
     //Limpo os campos
     
-    readPosts();
+    /*readPosts();*/
     //Lê os posts
 
 }
